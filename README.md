@@ -9,7 +9,7 @@ import scipy.stats as stats
 import math
 ```
 
-First, let's initiate the parameters. We use the relaxed assumption that the cluster size is known K = 3. Our prior distribution for cluster assignments is symmetric (<i>1/K</i> for each k &isin; <i>{1,...K}</i>). The weight matrix with values p(x|z,&mu;,&sigma;) is represented by the variable w. Additionally, we define two convergence criteria. If the change of data likelihood between two iterations is very small (tol), the algorithm is stopped. Otherwise the algorithm is stopped at least maximum number of iterations (max_iterations).
+First, let's initiate the parameters. We use the relaxed assumption that the cluster size is known K = 3. Our prior distribution for cluster assignments is symmetric (<i>1/K</i> for each k &isin; <i>{1,...K}</i>). The weight matrix with values p(x|z,&mu;,&sigma;) is represented by the variable w. Additionally, we define two convergence criteria. If the change of data likelihood between two iterations is very small (tol), the algorithm is stopped. Otherwise the algorithm is stopped after at least 100 iterations (max_iterations).
 ```python
 K = 3 # number of clusters
 phi = np.array([ 1/K ] * K) # prior (symmetric) distribution for cluster assignment
