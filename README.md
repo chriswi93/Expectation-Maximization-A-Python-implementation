@@ -59,7 +59,7 @@ def plot_clusters(true_mu, true_sigma, mu, sigma, x_list, x_color=False):
             plt.plot(x_list[i], [0] * len(x_list[i]), "|", color="black", alpha=.8)
     plt.legend()
 ```
-<img src="inital_guess.png"/>
+<img src="initial_guess.png"/>
 
 Now let's plot the clusters with our initial guess and compare it to the true posterior. The initial guess is not bad, but far away from the true posterior.
 ```python
