@@ -66,7 +66,7 @@ Now let's plot the clusters with our initial guess and compare it to the true po
 plot_clusters(true_mu, true_sigma, mu, sigma, x_list, x_color=False)
 ```
 
-Here you can see the EM clustering algorithm on a very low level. The code is self-explaining if you read the recommended article above.
+Here you can see the EM clustering algorithm on a very low level. The code is highly efficient due to the vectorization of the computation (avoiding loops). The computation is self-explaining if you read the recommended article above.
 ```python
 for iteration in range(max_iterations):
     
@@ -144,8 +144,8 @@ Likelihood Iteration 50: -2.8610552680743053
 Likelihood Iteration 51: -2.861055258346803
 ```
 
-What you can see in the output is that the likelihood of the data is increasing. Therefore, the model is getting better and better after each iteration. 
-Last step is to print out the estimated model parameters and compare the estimated distributions after execution with the true posterior distributions. However, be aware that the initial guess highly depends on the inital guess of the parameters and the data set.
+What you can see in the output is that the likelihood of the data is increasing. Therefore, the model is getting better and better after each iteration. As expected the model learned the parameters from the observed randomly sampled data.
+Last step is to print out the estimated model parameters and compare the estimated model parameters with the true model parameters (the parameters that sampled the data). However, be aware that the result highly depends on the inital guess of the parameters and the dataset. 
 ```python
 for i, (m, s) in enumerate(zip(mu, sigma)):
     print("Cluster {}: mean {}, sigma {}".format(i,m,s))
