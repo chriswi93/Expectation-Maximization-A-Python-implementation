@@ -1,6 +1,6 @@
 <h1>Expectation Maximization - A Python implementation</h1>
 
-Let's recap what was learned in the article <a src="#">Parameter Inference of Gaussian Mixture Models using Expectation Maximization</a> using a practical example.
+Let's recap what was learned in the article <a href="https://chriswi93.github.io/Expectation-Maximization-An-explanation-of-statistical-inference-using-the-example-of-GMMs/">Expectation Maximization - An explanation of statistical inference using the example of Gaussian Mixture Models</a> using a practical example.
 
 ```python
 import numpy as np
