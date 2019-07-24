@@ -144,7 +144,7 @@ Likelihood Iteration 50: -2.8610552680743053
 Likelihood Iteration 51: -2.861055258346803
 ```
 
-What you can see in the output is that the likelihood of the data is increasing. Therefore, the model is getting better and better after each iteration. As expected the model learned the parameters from the observed randomly sampled data.
+What you can see in the output is that the likelihood of the data is increasing. Therefore, the model is getting better and better after each iteration. As expected the model learned the parameters from the observed randomly sampled data. <br> 
 Last step is to print out the estimated model parameters and compare the estimated model parameters with the true model parameters (the parameters that sampled the data). However, be aware that the result highly depends on the inital guess of the parameters and the dataset. 
 ```python
 for i, (m, s) in enumerate(zip(mu, sigma)):
