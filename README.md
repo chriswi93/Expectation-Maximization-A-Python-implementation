@@ -72,7 +72,7 @@ for iteration in range(max_iterations):
     ### E-Step ###
     for k in range(K):
         w[:,k] = phi[k] * stats.norm.pdf(x, mu[k], sigma[k]) # update p(x|z,μ,σ)
-    w = w / w.sum(axis=1, keepdims=True) # normalize weight matrix
+    w = w / w.sum(axis=1, keepdims=True) # normalize weight matrix to get probability values
     
     ### M-Step ###
     phi = w.mean(axis=0) # update initial prior distribution of cluster assignment
