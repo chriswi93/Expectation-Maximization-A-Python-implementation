@@ -1,7 +1,7 @@
 <h1>Expectation Maximization - A Python implementation</h1>
-<p align="left" style="font-size:14px;"><b>Christoph Winkler</b><br>
-<i>M. Sc. Business Information Systems, Data Scientist</i><br>
-"Generative Modeling is simply about modeling <i>How the world could be</i> and not necessarily <i>How the world actually is</i>."</p>
+<p align="left" style="font-size:13px;"><b>Christoph Winkler</b><br>
+<i>M. Sc. Business Information Systems, Data Scientist<br>
+Generative Modeling is simply about modeling "How the world could be" and not necessarily "How the world actually is".</i></p>
 
 Let's recap what was learned in <a href="https://chriswi93.github.io/Expectation-Maximization-An-explanation-of-statistical-inference-using-the-example-of-GMMs/">Expectation Maximization - An explanation of statistical inference using the example of Gaussian Mixture Models</a> by showing an implementation in Python.
 
