@@ -1,4 +1,6 @@
 <h1>Expectation Maximization - A Python implementation</h1>
+<p align="left" style="font-size:14px;"><b>Christoph Winkler</b><br>
+<i>M. Sc. Business Information Systems, Data Scientist</i></p>
 
 Let's recap what was learned in <a href="https://chriswi93.github.io/Expectation-Maximization-An-explanation-of-statistical-inference-using-the-example-of-GMMs/">Expectation Maximization - An explanation of statistical inference using the example of Gaussian Mixture Models</a> by showing an implementation in Python.
 
