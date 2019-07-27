@@ -160,4 +160,5 @@ Cluster 2: mean 20.134222230802845, sigma 2.453386147898289
 plot_clusters(true_mu, true_sigma, mu, sigma, x_list, x_color=True)
 ```
 <img src="estimate.png"/>
-As expected the model learned a good approximation of the parameters from the observed randomly sampled data. What can we conclude? Generative Models are a kind of approximation that figures out <i>How the world could be</i>.
+<br>
+As expected the model learned a good approximation of the parameters from the observed randomly sampled data. What can we conclude? Learning algorithms of generative models are a kind of optimization that figures out <i>How the world could be</i> and not necessarily "<i>How the world really is</i>. Have fun reading other articles about machine learning to get better and better :)
