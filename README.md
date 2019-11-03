@@ -68,7 +68,7 @@ plot_clusters(true_mu, true_sigma, mu, sigma, x_list, x_color=False)
 ```
 <img src="initial_guess.png"/>
 
-In the following you can see the EM clustering algorithm on a very low level. The code is highly efficient due to the vectorization of the computation. That means: Explicitly avoiding loops in the code if possible. The computation is self-explaining if you read the recommended article above.
+In the following you can see the EM clustering algorithm on a very low level. The code is highly efficient due to the vectorization of the computation with numpy. The code should be self-explaining if you read the recommended article above.
 ```python
 for iteration in range(max_iterations):
     
